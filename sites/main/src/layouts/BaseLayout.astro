@@ -1,0 +1,25 @@
+---
+import '@fontsource/im-fell-french-canon'
+import '../styles/global.css'
+---
+
+<style>
+    :root {
+        h1 {
+            font-family: 'IM Fell French Canon', serif;
+        }
+    }
+</style>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+        <slot />
+	</body>
+</html>

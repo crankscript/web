@@ -1,0 +1,19 @@
+{
+  "name": "main",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy": "wrangler pages deploy ./dist --project-name main"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.5.1",
+    "@fontsource/im-fell-french-canon": "^5.2.5",
+    "astro": "^5.7.5",
+    "install": "^0.13.0",
+    "npm": "^11.3.0"
+  }
+}
